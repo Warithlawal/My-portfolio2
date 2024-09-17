@@ -193,6 +193,10 @@ nav ul li a:hover {
   font-size: 90px;
 }
 
+.projects h3 {
+  padding: 0 20px;
+}
+
 .card__inner {
   will-change: transform;
   background: white;
