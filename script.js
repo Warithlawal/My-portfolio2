@@ -1,3 +1,10 @@
+const scrollUp = () => {
+	const scrollUp = document.getElementById('scroll-up');
+	this.scrollY >= 350 ? scrollUp.classList.add('show-scroll') : scrollUp.classList.remove('show-scroll')
+};
+
+window.addEventListener('scroll', scrollUp);
+
 
 // Get DOM elements for navigation
 const navMenu = document.getElementById('nav_menu'),
@@ -39,32 +46,3 @@ if (overlay) {
 navLinks.forEach(link => {
     link.addEventListener('click', closemenu);
 });
-
-ScrollReveal({ 
-    reset: false,
-    distance: '60px',
-    duration: 2000,
-    delay: 300
-});
-
-ScrollReveal().reveal('.header-title, .about-title', { delay: 300, origin: 'left' });
-
-ScrollReveal().reveal('.contact-title', { delay: 300, origin: 'bottom' });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
