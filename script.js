@@ -16,7 +16,7 @@ function openmenu() {
 
 // Function to close the menu and handle overlay and scroll
 function closemenu() {
-    navMenu.style.right = "-300px"; // Hide the menu
+    navMenu.style.right = "-100%"; // Hide the menu
     overlay.style.display = "none"; // Hide overlay
     body.classList.remove('no-scroll'); // Restore scrolling
 }
